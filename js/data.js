@@ -77,6 +77,6 @@ const futureProjectsData = [
         statusText: "В планах",
         statusRgb: siteColors.planStatusRgb,
         cardRgb: "111, 145, 201",
-        image: "img/gamemode/emp_main.webp"
+        image: "img/gamemode/inked.webp"
     }
 ];
