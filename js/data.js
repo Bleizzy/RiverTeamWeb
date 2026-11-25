@@ -76,7 +76,7 @@ const futureProjectsData = [
         description: "Inded - режим основанный от игры Bendy.",
         statusText: "В планах",
         statusRgb: siteColors.planStatusRgb,
-        cardRgb: "111, 145, 201",
+        cardRgb: "255, 163, 82",
         image: "img/gamemode/inked.webp"
     }
 ];
