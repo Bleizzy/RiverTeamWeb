@@ -73,7 +73,7 @@ const futureProjectsData = [
     {
         slug: "inked",
         title: "INKED",
-        description: "Inded - игра основанная от игры Bendy",
+        description: "Inded - режим основанный от игры Bendy.",
         statusText: "В планах",
         statusRgb: siteColors.planStatusRgb,
         cardRgb: "111, 145, 201",
