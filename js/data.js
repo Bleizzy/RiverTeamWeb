@@ -71,19 +71,12 @@ const teamData = [
 
 const futureProjectsData = [
     {
-        slug: "employee",
-        title: "EMPLOYEE",
-        description: "Порт игры от Mr.Fizlex",
-        about: "Порт игры от Mr.Fizlex на движок Minecraft.",
-        genre: "Хоррор / Порт",
-        version: "В разработке",
-        team: ["Nuzhnoe", "Bleizzy", "Sams1k_"],
-        gallery: ["img/gamemode/emp_main.webp"],
-        links: [{ label: "Telegram", url: "https://t.me/riverteam_off" }],
-        statusText: "В разработке, финальный этап",
+        slug: "inked",
+        title: "INKED",
+        description: "Inded - игра основанная от игры Bendy",
+        statusText: "В планах",
         statusRgb: siteColors.planStatusRgb,
         cardRgb: "111, 145, 201",
-        image: "img/gamemode/emp_main.webp",
-        link: "project.html?p=employee"
+        image: "img/gamemode/emp_main.webp"
     }
 ];
