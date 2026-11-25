@@ -1,1 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="icon" type="image/webp" href="img/icons/telegram_color.webp">
+    <title>- River Team -</title>
+</head>
+
+<body data-page="home">
+    <div class="loader" id="loader">
+        <div class="loader-inner">
+            <div class="loader-logo">RIVER<span class="dot">.</span></div>
+            <div class="loader-bar"><span id="loader-fill"></span></div>
+            <div class="loader-text">ЗАГРУЗКА</div>
+        </div>
+    </div>
+    <noscript><style>.loader{display:none}</style></noscript>
+    <div class="bg-glow-top"></div>
+    <header id="site-header"></header>
+
+    <main class="container">
+        <section class="hero">
+            <div class="hero-left">
+                <div class="subtitle-line">
+                    <span class="red-dash"></span>
+                    <span>GAME DEVELOPMENT TEAM</span>
+                </div>
+                <h1 class="hero-title">RIVER<span class="dot">.</span></h1>
+                <p class="hero-desc">
+                    Команда энтузиастов, создающая<br>
+                    игровые режимы на движке Minecraft.
+                </p>
+                <a href="team.html" class="pill-btn">
+                    <span>О команде</span>
+                    <span class="arrow">→</span>
+                </a>
+            </div>
+
+            <div class="hero-right">
+                <div class="quote-box">
+                    <p>Команда<br>создающая<br>игровые режимы.</p>
+                    <span class="red-dash"></span>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="section-header">
+                <div class="section-title-wrap">
+                    <span class="red-dash"></span>
+                    <h2>Наши проекты</h2>
+                </div>
+                <a href="projects.html" class="link-with-circle">
+                    <span>Все проекты</span>
+                    <span class="circle-arrow">→</span>
+                </a>
+            </div>
+            <div id="projects-container" class="projects-grid"></div>
+        </section>
+
+        <section id="team" class="section">
+            <div class="section-header">
+                <div class="section-title-wrap">
+                    <span class="red-dash"></span>
+                    <h2>Наша команда</h2>
+                </div>
+                <a href="team.html" class="link-with-circle">
+                    <span>Вся команда</span>
+                    <span class="circle-arrow">→</span>
+                </a>
+            </div>
+            <div id="team-container" class="team-grid"></div>
+        </section>
+
+        <section id="future" class="section">
+            <div class="section-header">
+                <div class="section-title-wrap">
+                    <span class="red-dash"></span>
+                    <h2>Будущие проекты</h2>
+                </div>
+                <a href="plans.html" class="link-with-circle">
+                    <span>Все планы</span>
+                    <span class="circle-arrow">→</span>
+                </a>
+            </div>
+            <div id="future-container" class="future-list"></div>
+        </section>
+    </main>
+
+    <footer id="site-footer"></footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
